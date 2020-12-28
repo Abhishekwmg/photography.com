@@ -1,0 +1,1611 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Glass Antiqua', cursive;
+font-family: 'Playfair Display', serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 121vh;
+    background: url('./Images/Wallpaper2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .fix{
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 999;
+}
+
+header .nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .nav .nav-logo{
+    font-size: 0.4rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.5rem 4rem;
+    color: white;
+    font-weight: 900;
+}
+
+header .nav .nav-items{
+    padding: 1.5rem 4rem;
+}
+
+header .nav .nav-items a{
+    padding: 0 1rem;
+    text-decoration: none;
+    color: white; 
+    font-family:'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.cool-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #fff;
+    transition: width 0.5s ease-in-out;
+    margin-top: 0.1rem;
+}
+
+/* Hamburger Menu */
+
+.fixed-bar{
+    position: fixed;
+}
+
+nav{
+    height: 10vh;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-logo{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 0.8rem;
+    padding-left: 5rem;
+    color: #fff;
+}
+nav .nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    list-style: none;
+    /* width: 100%; */
+    margin: 5rem;
+    /* background-color: lightcoral; */
+    /* height: 100%; */
+}
+
+nav .nav-links li{
+    padding-top: 1rem;
+}
+
+nav .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 1.5rem;
+    display: inline-block;
+}
+
+
+/* Hamburger Ends Here */
+
+
+.cool-link:hover::after{
+    width: 100%;
+    transition: width 0.5s;
+}
+
+.cool-link-two::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #000;
+    transition: width 0.5s ease-in-out;
+}
+
+.cool-link-two:hover::after{
+    width: 50%;
+    transition: width 0.5s;
+}
+
+header .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(236, 231, 231, 0.856);
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 3rem;
+    padding: 3rem;
+    font-weight: lighter;
+}
+
+header .heading p{
+    font-family:'Cedarville Cursive', cursive;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+header .heading h1{
+    font-weight: 100;
+}
+
+header .heading h2{
+    font-size: 10rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+
+header .heading h3{
+    color: white;
+    font-size: 1.3rem; 
+    font-weight: lighter;
+    font-family: 'Glass Antiqua';
+    padding-top: 3.5rem;    
+}
+
+.memory{
+    width: 100%;
+    height: 115vh;
+    background: #F7F2EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    text-align: center; 
+}
+
+.memory .headings-one{
+    font-family: 'Glass Antiqua', cursive;
+}
+
+.memory .headings-one h1{
+    padding: 4rem 0;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.memory .headings-one h2{
+    padding: 4rem 0;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.memory .headings-one h3{
+    padding: 5rem 0;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.memory .headings-one .tag-one{
+    margin-top: 10rem;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.memory .headings-one .tag-two{
+    font-size: 2rem;
+}
+
+.grid-gallery{
+    width: 100%;
+    height: 110vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-gallery .left-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: #DCD9C9;
+}
+.grid-gallery .left-gallery img{
+    height: 14rem;
+    width: 10rem;
+}
+.grid-gallery .left-gallery p{
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 1.2rem;
+    letter-spacing: 0.5;
+    word-spacing: 1px;
+    line-height: 1.5rem;
+    font-weight: 100;
+    padding-top: 20rem;
+}
+
+.grid-gallery .right-gallery{
+    background: url('./Images/Couple10.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.round-gallery{
+    background: #F7F2EF;
+    height: 200vh;
+    width:100%;
+    position: relative;
+    z-index: -1;
+}
+
+.round-gallery .circle{
+    position: absolute;
+    top: 7rem;
+    left: 7rem;
+    border-radius: 50%;
+    height: 70rem;
+    width: 70rem;
+    background: #E9DFDA;
+}
+
+.round-gallery .model-one{
+    position: absolute;
+    top: 21rem;
+    left: 15rem;
+}
+
+.round-gallery .model-one img{
+    height: 36rem;
+    width: 25rem;
+}
+
+.round-gallery .model-two{
+    position: absolute;
+    top: 8rem;
+    left: 37rem;
+}
+
+.round-gallery .model-two img{
+    height: 16rem;
+    width: 11rem;
+}
+
+.round-gallery .model-three{
+    position: absolute;
+    top: 21rem;
+    right: 1rem;
+}
+
+.round-gallery .model-three img{
+    height: 28rem;
+    width: 20rem;
+}
+
+.round-gallery .bold-headlin-one{
+    position: absolute;
+    top: 7rem;
+    left: 14rem;
+    color: #303030;
+    font-size: 7rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: lighter;
+} 
+
+.round-gallery .bold-headlin-two{
+    position: absolute;
+    top: 13rem;
+    left: 16rem;
+    color: #303030;
+    font-size: 7rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: lighter;
+}
+
+.round-gallery .bold-headlin-three{
+    position: absolute;
+    top: 52rem;
+    left: 4rem;
+    color: #303030;
+    font-size: 3.5rem;;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: lighter;
+}
+
+.round-gallery .bold-headlin-four{
+    position: absolute;
+    top: 54.8rem;
+    left: 2.5rem;
+    color: #303030;
+    font-size: 3.5rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: lighter;
+}
+
+.round-gallery .bold-headlin-five{
+    position: absolute;
+    top: 52rem;
+    left: 41.5rem;
+    color: #303030;
+    font-size: 7rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: lighter;
+}
+
+.round-gallery .bold-headlin-six{
+    position: absolute;
+    top: 59rem;
+    left: 30rem;
+    color: #303030;
+    font-size: 4rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: 100;
+}
+
+.round-gallery .bold-headlin-seven{
+    position: absolute;
+    top: 63rem;
+    left: 30rem;
+    color: #303030;
+    font-size: 4rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: 100;
+}
+
+.round-gallery .bold-headlin-eight{
+    position: absolute;
+    top: 67rem;
+    left: 30rem;
+    color: #303030;
+    font-size: 4rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: 100;
+}
+
+.round-gallery .bold-headlin-eight{
+    position: absolute;
+    top: 67rem;
+    left: 30rem;
+    color: #303030;
+    font-size: 4rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: 100;
+}
+
+.round-gallery .bold-headlin-nine{
+    position: absolute;
+    top: 50rem;
+    right: 1rem;
+    color: #303030;
+    font-size: 3rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: 100;
+}
+
+.round-gallery .bold-headlin-ten{
+    position: absolute;
+    top: 53rem;
+    right: 5rem;
+    color: #303030;
+    font-size: 3rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: 100;
+}
+
+.round-gallery .btn{
+    position: absolute;
+    bottom: 5rem;
+    left: 36%;
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    height: 4.5rem;
+    width: 13rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    margin: auto;
+    font-weight:bold;
+    cursor: pointer;;
+}
+
+.projects{
+    width: 100%;
+    height: 80vh;
+    background: #161616;
+    z-index: -1;
+}
+
+.projects h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1rem;
+    color: white;
+    font-weight: lighter;
+    padding-top: 8rem;
+}
+.projects h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 5rem;
+    color: white;
+    font-weight: lighter;
+    padding-top: 1rem;
+}
+.projects i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: lighter;
+    padding-top: 6rem;
+}
+
+.grid-one{
+    height: 105vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-one .grid-left-one{
+    background-color: #000000;
+}
+
+.grid-one .grid-left-one .grid-nav-menu-one a{
+    padding-top: 10rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.grid-one .grid-left-one h1{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: lighter;
+    color: #fff;
+
+}
+
+.grid-one .grid-left-one h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 7rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.grid-one .grid-left-one .grid-nav-menu-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-one .grid-right-one{
+    background: url('./Images/Couple7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Second Grid */
+
+.grid-two{
+    height: 105vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-two .grid-left-two{
+    background: url('./Images/Overlay2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.grid-two .grid-left-two .grid-nav-menu-two a{
+    padding-top: 10rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.grid-two .grid-left-two h1{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: lighter;
+    color: #fff;
+
+}
+
+.grid-two .grid-left-two h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 7rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.grid-two .grid-left-two .grid-nav-menu-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-two .grid-right-two{
+    background: url('./Images/Couple12.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Thirds Grid */
+
+.grid-three{
+    height: 105vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three .grid-left-three{
+    background: url('./Images/Overlay1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.grid-three .grid-left-three .grid-nav-menu-three a{
+    padding-top: 10rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.grid-three .grid-left-three h1{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: lighter;
+    color: #fff;
+
+}
+
+.grid-three .grid-left-three h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 7rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.grid-three .grid-left-three .grid-nav-menu-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-three .grid-right-three{
+    background: url('./Images/Couple15.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Four Grid */
+
+.grid-four{
+    height: 105vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-four .grid-left-four{
+    background: url('./Images/Overlay3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.grid-four .grid-left-four .grid-nav-menu-four a{
+    padding-top: 10rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.grid-four .grid-left-four h1{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: lighter;
+    color: #fff;
+
+}
+
+.grid-four .grid-left-four h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 7rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.grid-four .grid-left-four .grid-nav-menu-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-four .grid-right-four{
+    background: url('./Images/Couple14.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wide-screen{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url('./Images/Widescreen5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wide-screen .wide-screen-quote{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; */
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+.curved{
+    height: 95vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./Images/CurvedWallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.curved .curved-image{
+    height: 15rem;
+    width: 12rem;
+    background: url('./Images/CurvedImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+/* ++++++++ */
+
+.slideshow{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #95977F;
+    z-index: -1;
+}
+
+.slideshow .slideshow-item{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    opacity: 0;
+    animation: cycleImages 41s infinite;
+ }
+
+ .slideshow .slideshow-item img{
+    width: 50;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:5rem;
+    object-fit: cover;
+    animation: zoom 31s infinite;
+ }
+ 
+ .slideshow .slideshow-item:nth-child(1),
+ .slideshow .slideshow-item:nth-child(1) img{
+    animation-delay: 0s;
+}
+.slideshow .slideshow-item:nth-child(2),
+.slideshow .slideshow-item:nth-child(2) img{
+    animation-delay: 10s;
+}
+.slideshow .slideshow-item:nth-child(3),
+.slideshow .slideshow-item:nth-child(3) img{
+    animation-delay: 20s;
+}
+.slideshow .slideshow-item:nth-child(4),
+.slideshow .slideshow-item:nth-child(4) img{
+    animation-delay: 30s;
+}
+
+ .slideshow .slideshow-item .slideshow-item-text{
+     max-width: 50%;
+     position: absolute;
+     top:50%;
+     right: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     flex-direction: column;
+     transform: translateY(-50%);
+     color: #fff;
+     padding: 10rem 5rem;
+ }
+
+ .slideshow .slideshow-item .slideshow-item-text h5{
+     font-size: 3rem;
+     font-family: 'Glass Antiqua', cursive; 
+     font-weight: 100;
+     margin-bottom: 2.5rem;
+ }
+
+ .slideshow .slideshow-item .slideshow-item-text p{
+    font-size: 1rem;
+    font-family: 'Glass Antiqua', sans-serif;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.slideshow .slideshow-item .slideshow-item-text h4{
+    font-size: 1rem;
+    font-family: 'Darker Grotesque', cursive; 
+    font-weight: 100;
+    margin-bottom: 2.5rem;
+    line-height: 1;
+}
+
+.slideshow .slideshow-item .slideshow-item-text h3{
+    font-size: 2rem;
+    font-family: 'Glass Antiqua', cursive; 
+    font-weight: 100;
+    margin-bottom: 2.5rem;
+}
+
+.tips{
+    height: 130vh;
+    width: 100%;
+    /* position: relative; */
+    background: #876550;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tips .tips-left{
+    height: 100vh;
+    width: 50%;
+    margin-left: 5rem;   
+}
+
+.tips .tips-left h1{
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 5rem;
+    font-weight: lighter;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.tips .tips-left h3{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+.tips .tips-left p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.btn-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tips .tips-left .btn-contact{
+    height: 4rem;
+    width: 13rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 4rem;
+    color: #000;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tips .tips-left .btn-flex p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.6rem;
+    color: #fff;
+}
+.tips .tips-right{
+    height: 100vh;
+    width: 30%;
+    background: url('./Images/Tips.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.resources{
+    width: 100%;
+    height: 120vh;
+    background: #DBD8C7;
+    position: relative;
+    z-index: -1;
+}
+
+.resources .resources-image-one{
+    position: absolute;
+    bottom: 5rem;
+    left: 20rem;
+    height: 15rem;
+    width: 12rem;
+    background: url('./Images/Couple-Pair1.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.resources .resources-image-two{
+    position: absolute;
+    top: -5rem;
+    left: 15rem;
+    background: url('./Images/Couple-Pair2.jpg');
+    height: 15rem;
+    width: 12rem;
+    background-position: center;
+    background-size: cover;
+}
+.resources .resource-flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.resources .resource-flex-box .resource-text{
+    position: absolute;
+    top: 10rem;
+    left: 35rem;
+}
+
+.resources .resource-flex-box .resource-text h1{
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 5rem;
+    color: #333;
+    font-weight: lighter;
+}
+
+.resources .resource-flex-box .resource-text h2{
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 2rem;
+    color: #333;
+    font-weight: lighter;
+}
+
+.resources .resource-flex-box .resource-text h5{
+    font-size: 10rem;
+    color: #333;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+}
+
+.resources .resource-flex-box .resource-text p{
+    font-size: 0.8rem;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.newsletter{
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./Images/newsletter.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.newsletter h2{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 2rem;
+    color: white;
+    font-weight: lighter;
+    position: absolute;
+    top: 3rem;
+    left: 45%;
+    text-align: center;
+}
+
+.newsletter h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 8rem;
+    color: white;
+    font-weight: lighter;
+    position: absolute;
+    top:5rem;
+    left: 0;
+    text-align: center;
+
+}
+.newsletter form{
+    position: absolute;
+    bottom: 4rem;
+    left: 40%;
+}
+
+.newsletter form input{
+    width: 100%;
+    height: 3rem;
+    background: rgba(34, 34, 34, 0.658);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.newsletter form input::placeholder{
+    color: white;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+.newsletter form .submit{
+    height: 4rem;
+    width: 21rem;
+    background:#fff;
+    color: black;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.email{
+    height: 150vh;
+    width: 100%;
+    background: #DBD8C7;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: -1;
+}
+
+.email a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 2rem;  
+    /* position: absolute;
+    bottom: 2rem;
+    left: 43%;  */
+}
+
+footer{
+    height: 110vh;
+    width: 100%;
+    background: rgb(0,0,0);
+}
+footer .elopement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 15rem; 
+}
+
+footer .elopement h1{
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #fff;
+
+}
+
+footer .elopement p{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: #fff;
+    padding-top: 3rem;
+}
+
+footer .elopement h2{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: #fff;
+    padding-top: 2rem;
+}
+
+footer .nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7rem;
+}
+
+footer .nav .nav-logo{
+    padding: 2rem 5rem;
+}
+
+footer .nav .nav-logo a{
+    padding: 0 1rem;
+    text-decoration: none;
+    color: white; 
+    font-family:'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+footer .nav .nav-items{
+    padding: 2rem 5rem;
+}
+
+footer .nav .nav-items a{
+    padding: 0 1rem;
+    text-decoration: none;
+    color: white; 
+    font-family:'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.footer .nav .copy p{
+    color: #fff;
+}
+
+@keyframes cycleImages{
+    25%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+}
+
+@keyframes zoom{
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+
+/* Media Query */
+
+@media screen and (max-width: 768px){
+
+    header{
+        overflow: hidden;
+        height: 90vh;
+    }
+     header .heading h1{
+        font-size: 3rem;
+     }
+     
+     header .heading p{
+        font-size: 0.8rem;
+     }
+     
+     header .heading h2{
+        font-size: 5rem;
+     }
+
+     header .heading h3{
+        font-size: 0.8rem;
+        margin-top: 5rem;
+     }
+    .memory{
+        height: 90vh;
+        overflow: hidden;
+    }
+
+    .memory .headings-one h1{
+        font-size: 2rem;
+    }
+
+    .memory .headings-one h2{
+        font-size: 2rem;
+    }
+
+    .memory .headings-one h3{
+        font-size: 1.5rem;
+        margin-bottom: 5rem;
+    }
+
+    .memory .headings-one .tag-two{
+        font-size: 2rem;
+    }
+    .memory .headings-one .tag-one{
+        font-size: 2rem;
+    }
+
+
+    .grid-gallery{
+        overflow: hidden;
+        display: block;
+    }
+
+    .grid-gallery .left-gallery img{
+        padding-top: 1rem;
+
+    }
+    .grid-gallery .left-gallery .left-gallery-para{
+        font-size: 1rem;
+        padding-bottom: 5rem;
+    }
+
+
+    .round-gallery{
+        overflow: hidden;
+        height: 150vh
+    }
+
+    .round-gallery .model-three{
+        display: none;
+    }
+
+    .round-gallery .model-one{
+        position: absolute;
+        top: 20rem;
+        left: 15rem;
+    }
+
+    .round-gallery .model-one img{
+        height: 22rem;
+        width: 16rem;
+    }
+     
+    .round-gallery .model-two{
+        position: absolute;
+        top: 5rem;
+        left: 28rem;
+    }
+
+    .round-gallery .model-two img{
+        height: 16rem;
+        width: 11rem;
+    }
+
+    .round-gallery .bold-headlin-one{
+        font-size: 5rem;
+        top: 10rem;
+    }
+
+    .round-gallery .bold-headlin-two{
+        font-size: 5rem;
+        top: 14rem;
+        left: 12rem; 
+    
+    }
+    .round-gallery .bold-headlin-three{
+        font-size: 3rem;
+        top: 38rem;
+        left: 5.5rem;
+    }
+
+    .round-gallery .bold-headlin-four{
+        font-size: 3rem;
+        top: 41rem;
+        left: 5rem;
+    }
+
+    .round-gallery .bold-headlin-five{
+        font-size: 5rem;
+        top: 41.5rem;
+        left: 24rem;
+    }
+
+    .round-gallery .bold-headlin-six{
+        font-size: 2rem;
+        top: 46.5rem;
+        left: 24rem;
+    }
+
+    .round-gallery .bold-headlin-seven{
+        font-size: 2rem;
+        top: 48.5rem;
+        left: 24rem;
+    }
+    .round-gallery .bold-headlin-eight{
+        font-size: 3rem;
+        top: 50.5rem;
+        left: 24rem;
+    }
+
+    .round-gallery .bold-headlin-nine{
+        display: none;
+    }
+    .round-gallery .bold-headlin-ten{
+        display: none;
+    }
+
+    .round-gallery .btn{
+       bottom: 3rem;
+       height: 2.5rem;
+       width: 10rem;
+       text-align: center;
+       font-size: 1rem;
+    }
+
+    .projects{
+        overflow: hidden;
+        height: 60vh;
+    }
+
+    .projects h1{
+        font-size: 3rem;
+        overflow: hidden;
+    }
+    
+    .projects h2{
+        padding-top: 5rem;
+        overflow: hidden;
+    }
+
+    .projects i{
+        font-size: 2rem; 
+        overflow: hidden;
+    }
+
+    .grid-one .grid-left-one h1{
+        font-size: 2rem;
+        overflow: hidden;
+    }
+
+    .grid-two .grid-left-two h1{
+        font-size: 2rem;
+        overflow: hidden;
+    }
+
+    .grid-three .grid-left-three h1{
+        font-size: 2rem;
+        overflow: hidden;
+    }
+
+    .grid-four .grid-left-four h1{
+        font-size: 2rem;
+        overflow: hidden;
+    }
+
+    .wide-screen .wide-screen-quote{
+        font-size: 3rem;
+        padding: 3rem;
+        color: white;
+        overflow: hidden;
+    }
+
+    .slideshow{
+        overflow: hidden;
+    }
+
+    .slideshow .slideshow-item img{
+        height: 20rem;
+        width: 15rem;
+        margin-top: 10rem;
+        overflow: hidden;
+    }
+
+    .slideshow .slideshow-item .slideshow-item-text h4{
+        display: none;
+        overflow: hidden;
+    }
+
+    .slideshow .slideshow-item .slideshow-item-text h5{
+        font-size: 2rem;
+        overflow: hidden;
+    }
+
+    .slideshow .slideshow-item .slideshow-item-text p{
+        font-size: 0.8rem;
+        overflow: hidden;
+    }
+
+    .tips{
+        overflow: hidden;
+        overflow: hidden;
+    }
+
+    .tips .tips-left h1{
+        font-size: 3rem;
+        overflow: hidden;
+    }
+    .tips .tips-left h3{
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        overflow: hidden;
+    }
+    .tips .tips-left p{
+        font-size: 0.7rem;
+        overflow: hidden;
+    }
+
+    .tips .tips-left .btn-flex{
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .tips .tips-left .btn-flex .btn-contact{
+        height: 3rem;
+        width: 10rem;
+        margin: 2rem;
+        font-size: 0.8rem;
+        overflow: hidden;
+    }
+
+    .tips .tips-left .btn-flex p{
+        padding: 1rem;
+        overflow: hidden;
+    }
+
+    .resources{
+        overflow: hidden;
+    }
+
+    .resources .resources-image-one{
+        display: none;
+        overflow: hidden;
+    }
+
+    .resources .resources-image-two{
+        top: 5rem;
+        left: 13rem;     
+        overflow: hidden;  
+    }
+    
+    .resources .resource-flex-box .resource-text{
+        left: 11rem;
+        top: 22rem;
+        overflow: hidden;
+    }
+
+    .resources .resource-flex-box .resource-text h1{
+        font-size: 4rem;
+        overflow: hidden;
+    }
+
+    .resources .resource-flex-box .resource-text h2{
+        font-size: 2rem;
+        overflow: hidden;
+    }
+
+    .resources .resource-flex-box .resource-text h5{
+        font-size: rem;
+        overflow: hidden;
+    }
+
+    .newsletter{
+        height: 60vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .newsletter h2{
+        font-size: 1rem;
+        background-color: rgba(0, 0, 0, 0.514);
+        padding: 0.5rem;
+        overflow: hidden;
+    }
+
+    .newsletter h1{
+        font-size: 3rem;
+        overflow: hidden;
+    }
+
+    .newsletter form{
+        top: 18rem;
+        overflow: hidden;
+        left: 13.5rem;
+        padding-bottom: 5rem;
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: -10rem; */
+
+    }
+
+    .newsletter form input{
+        width: 15rem;
+        overflow: hidden;
+        height: 2rem;
+    }
+
+    .newsletter form .submit{
+        width: 15rem;
+        height: 2rem;
+        font-size: 1rem;
+        overflow: hidden;
+    }
+
+    .email{
+        height: 50vh;
+        position: relative;        
+    }
+    
+
+    footer .elopement h1{
+        font-size: 2rem;
+        overflow: hidden;
+    }
+
+    footer .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    footer .nav .nav-logo{
+        text-align: center;
+        overflow: hidden;
+    }
+
+    nav .nav-logo{
+        
+    }
+
+
+    .line{
+        width: 30px;
+        height: 3px;
+        margin: 5px;
+        background: #fff;
+        overflow: hidden;
+    }
+
+    nav{
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hamburger{
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        cursor: pointer;
+        transform: translate(-5%, -50%);
+        z-index: 999;
+        overflow: hidden;
+    }
+
+    nav .nav-links{
+        position: fixed;
+        background: #2a2127;
+        height: 120vh;
+        /* min-width: 100%; */
+        width: 100%;
+        flex-direction: column;
+        top: -15%;
+        clip-path: circle(100px at 40% -10%);
+        transition: all 1s ease-in-out;
+        overflow: hidden;
+    }
+
+    nav .nav-links{
+        font-size: 5rem;   
+    }
+
+    .nav-links.open{
+        clip-path: circle(1000px at 90% -10%);
+        overflow: hidden;
+    }
+
+     
+}
