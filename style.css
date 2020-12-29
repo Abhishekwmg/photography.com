@@ -1552,15 +1552,10 @@ footer .nav .nav-items a{
         overflow: hidden;
     }
 
-    footer .nav .nav-logo{
+    footer .nav .nav-logo {
         text-align: center;
         overflow: hidden;
     }
-
-    nav .nav-logo{
-        
-    }
-
 
     .line{
         width: 30px;
@@ -1602,10 +1597,523 @@ footer .nav .nav-items a{
         font-size: 5rem;   
     }
 
-    .nav-links.open{
+    /* .nav-links.open{
         clip-path: circle(1000px at 90% -10%);
         overflow: hidden;
+    } */
+
+     
+}
+
+/* Media Query */
+
+@media screen and (max-width: 480px){
+
+    .memory{
+        overflow: hidden;
+        z-index: -999;
     }
+
+    .grid-gallery{
+        overflow: hidden;
+        z-index: -1000;
+    }
+
+    .round-gallery{
+        overflow: hidden;
+        z-index: -1001;
+    }
+
+    .projects{
+        overflow: hidden;
+        z-index: -1002;
+    }
+
+    .grid-one{
+        overflow: hidden;
+        z-index: -1003;
+    }
+
+    .grid-two{
+        overflow: hidden;
+        z-index: -1004;
+    }
+
+    .grid-three{
+        overflow: hidden;
+        z-index: -1005;
+    }
+
+    .grid-four{
+        overflow: hidden;
+        z-index: -1006;
+    }
+
+
+
+    header{
+        overflow: hidden;
+        height: 90vh;
+        z-index: -1;
+    }
+     header .heading h1{
+        font-size: 2rem;
+        overflow: hidden;
+     }
+     
+     header .heading p{
+        font-size: 0.8rem;
+        overflow: hidden;
+     }
+     
+     header .heading h2{
+        font-size: 5rem;
+        overflow: hidden;
+     }
+
+     header .heading h3{
+        font-size: 0.6rem;
+        margin-top: 5rem;
+        overflow: hidden;
+     }
+    .memory{
+        height: 90vh;
+        overflow: hidden;
+    }
+
+    .memory .headings-one h1{
+        font-size: 1.5rem;
+        overflow: hidden;
+    }
+
+    .memory .headings-one h2{
+        font-size: 2rem;
+        overflow: hidden;
+    }
+
+    .memory .headings-one h3{
+        font-size: 1.5rem;
+        margin-bottom: 5rem;
+        overflow: hidden;
+    }
+
+    .memory .headings-one .tag-two{
+        font-size: 2rem;
+        overflow: hidden;
+    }
+    .memory .headings-one .tag-one{
+        font-size: 2rem;
+        overflow: hidden;
+    }
+
+
+    .grid-gallery{
+        overflow: hidden;
+        display: block;
+        overflow: hidden;
+    }
+
+    .grid-gallery .left-gallery img{
+        padding-top: 1rem;
+        overflow: hidden;
+
+    }
+    .grid-gallery .left-gallery .left-gallery-para{
+        font-size: 1rem;
+        padding-bottom: 5rem;
+        overflow: hidden;
+    }
+
+
+    .round-gallery{
+        overflow: hidden;
+        height: 100vh;
+        background: #fff;
+    }
+
+    .round-gallery .model-three{
+        display: none;
+        overflow: hidden;
+    }
+
+    .round-gallery .model-one{
+        position: absolute;
+        top: 14rem;
+        left: 5rem;
+        overflow: hidden;
+    }
+
+    .round-gallery .model-one img{
+        height: 22rem;
+        width: 16rem;
+        overflow: hidden;
+    }
+     
+    .round-gallery .model-two{
+        position: absolute;
+        top: 5rem;
+        left: 28rem;
+        overflow: hidden;
+        display: none;
+    }
+
+    .round-gallery .model-two img{
+        height: 16rem;
+        width: 11rem;
+        overflow: hidden;
+    }
+
+    .round-gallery .bold-headlin-one{
+        font-size: 5rem;
+        top: 1rem;
+        left: 2rem;
+        overflow: hidden;
+    }
+
+    .round-gallery .bold-headlin-two{
+        font-size: 5rem;
+        top: 5.5rem;
+        left: 10rem; 
+        overflow: hidden;
+    
+    }
+    .round-gallery .bold-headlin-three{
+        font-size: 2rem;
+        top: 36.5rem;
+        left: 5.5rem;
+        overflow: hidden;
+    }
+
+    .round-gallery .bold-headlin-four{
+        font-size: 2rem;
+        top: 38rem;
+        left: 4rem;
+    }
+
+    .round-gallery .bold-headlin-five{
+        font-size: 5rem;
+        top: 41.5rem;
+        left: 24rem;
+        display: none;
+    }
+
+    .round-gallery .bold-headlin-six{
+        font-size: 2rem;
+        top: 46.5rem;
+        left: 24rem;
+        display: none;
+    }
+
+    .round-gallery .bold-headlin-seven{
+        font-size: 2rem;
+        top: 48.5rem;
+        left: 24rem;
+        display: none;
+    }
+    .round-gallery .bold-headlin-eight{
+        font-size: 3rem;
+        top: 50.5rem;
+        left: 24rem;
+        display: none;
+    }
+
+    .round-gallery .bold-headlin-nine{
+        display: none;
+    }
+    .round-gallery .bold-headlin-ten{
+        display: none;
+    }
+
+    .round-gallery .btn{
+       bottom: 2rem;
+       height: 2.5rem;
+       width: 10rem;
+       text-align: center;
+       font-size: 1rem;
+    }
+
+    .projects{
+        overflow: hidden;
+        height: 60vh;
+    }
+
+    .projects h1{
+        font-size: 3rem;
+        overflow: hidden;
+    }
+    
+    .projects h2{
+        padding-top: 5rem;
+        overflow: hidden;
+    }
+
+    .projects i{
+        font-size: 2rem; 
+        overflow: hidden;
+    }
+
+    .grid-one,
+    .grid-two,
+    .grid-three,
+    .grid-four{
+        grid-template-columns: 30% 70%;
+    }
+
+    .grid-one .grid-left-one .grid-nav-menu-one,
+    .grid-two .grid-left-two .grid-nav-menu-two,
+    .grid-three .grid-left-three .grid-nav-menu-three,
+    .grid-four .grid-left-four .grid-nav-menu-four{
+        display: none;
+    }
+
+    .grid-one .grid-left-one h1{
+        font-size: 1rem;
+        overflow: hidden;
+    }
+
+    .grid-two .grid-left-two h1{
+        font-size: 1rem;
+        overflow: hidden;
+    }
+
+    .grid-three .grid-left-three h1{
+        font-size: 1rem;
+        overflow: hidden;
+    }
+
+    .grid-four .grid-left-four h1{
+        font-size: 1rem;
+        overflow: hidden;
+    }
+
+    .wide-screen .wide-screen-quote{
+        font-size: 3rem;
+        padding: 3rem;
+        color: white;
+        overflow: hidden;
+    }
+
+    .slideshow{
+        display: none;
+        overflow: hidden;
+    }
+
+    .slideshow .slideshow-item img{
+        height: 20rem;
+        width: 15rem;
+        margin-top: 10rem;
+        overflow: hidden;
+    }
+
+    .slideshow .slideshow-item .slideshow-item-text h4{
+        display: none;
+        overflow: hidden;
+    }
+
+    .slideshow .slideshow-item .slideshow-item-text h5{
+        font-size: 2rem;
+        overflow: hidden;
+    }
+
+    .slideshow .slideshow-item .slideshow-item-text p{
+        font-size: 0.8rem;
+        overflow: hidden;
+    }
+
+    .tips{
+        overflow: hidden;
+        overflow: hidden;
+    }
+
+    .tips .tips-left h1{
+        font-size: 3rem;
+        overflow: hidden;
+    }
+    .tips .tips-left h3{
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        overflow: hidden;
+    }
+    .tips .tips-left p{
+        font-size: 0.7rem;
+        overflow: hidden;
+    }
+
+    .tips .tips-left .btn-flex{
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .tips .tips-left .btn-flex .btn-contact{
+        height: 3rem;
+        width: 10rem;
+        margin: 2rem;
+        font-size: 0.8rem;
+        overflow: hidden;
+    }
+
+    .tips .tips-left .btn-flex p{
+        padding: 1rem;
+        overflow: hidden;
+        display: none;
+    }
+
+    .resources{
+        overflow: hidden;
+    }
+
+    .resources .resources-image-one{
+        display: none;
+        overflow: hidden;
+    }
+
+    .resources .resources-image-two{
+        top: 5rem;
+        left: 7rem;     
+        overflow: hidden;  
+    }
+    
+    .resources .resource-flex-box .resource-text{
+        left: 5rem;
+        top: 22rem;
+        overflow: hidden;
+    }
+
+    .resources .resource-flex-box .resource-text h1{
+        font-size: 4rem;
+        overflow: hidden;
+    }
+
+    .resources .resource-flex-box .resource-text h2{
+        font-size: 2rem;
+        overflow: hidden;
+    }
+
+    .resources .resource-flex-box .resource-text h5{
+        font-size: rem;
+        overflow: hidden;
+    }
+
+    .newsletter{
+        height: 60vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .newsletter h2{
+        font-size: 0.7rem;
+        background-color:#8282828e;
+        padding: 0.5rem;
+        overflow: hidden;
+    }
+
+    .newsletter h1{
+        font-size: 2rem;
+        padding-top: 1rem;
+        overflow: hidden;
+    }
+
+    .newsletter form{
+        top: 18rem;
+        overflow: hidden;
+        left: 6rem;
+        padding-bottom: 5rem;
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: -10rem; */
+
+    }
+
+    .newsletter form input{
+        width: 15rem;
+        overflow: hidden;
+        height: 2rem;
+        background: #8282828e;
+    }
+
+    .newsletter form .submit{
+        width: 15rem;
+        height: 2rem;
+        font-size: 1rem;
+        overflow: hidden;
+    }
+
+    .email{
+        height: 50vh;
+        position: relative;        
+    }
+
+    footer .elopement h1{
+        font-size: 2rem;
+        overflow: hidden;
+    }
+
+    footer .elopement h2{
+        /* padding: 0 1rem; */
+        display: none;
+    }
+
+    footer .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    footer .nav .nav-logo {
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .line{
+        width: 30px;
+        height: 3px;
+        margin: 5px;
+        background: #fff;
+        overflow: hidden;
+    }
+
+    nav{
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hamburger{
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        cursor: pointer;
+        transform: translate(-5%, -50%);
+        z-index: 1500;
+        overflow: hidden;
+    }
+
+    nav .nav-links{
+        position: fixed;
+        background: #2a2127;
+        height: 120vh;
+        /* min-width: 100%; */
+        width: 100%;
+        flex-direction: column;
+        top: -15%;
+        clip-path: circle(100px at 40% -10%);
+        transition: all 1s ease-in-out;
+        overflow: hidden;
+    }
+
+    nav .nav-links{
+        font-size: 5rem;   
+    }
+
+    /* .nav-links.open{
+        clip-path: circle(1000px at 90% -10%);
+        overflow: hidden;
+    } */
 
      
 }
