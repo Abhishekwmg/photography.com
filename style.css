@@ -7,6 +7,54 @@ font-family: 'Glass Antiqua', cursive;
 font-family: 'Playfair Display', serif;
 */
 
+.memory{
+    overflow: hidden;
+    z-index: -999;
+}
+
+.grid-gallery{
+    overflow: hidden;
+    z-index: -1000;
+}
+
+.round-gallery{
+    overflow: hidden;
+    z-index: -1001;
+}
+
+.projects{
+    overflow: hidden;
+    z-index: -1002;
+}
+
+.grid-one{
+    overflow: hidden;
+    z-index: -1003;
+}
+
+.grid-two{
+    overflow: hidden;
+    z-index: -1004;
+}
+
+.grid-three{
+    overflow: hidden;
+    z-index: -1005;
+}
+
+.grid-four{
+    overflow: hidden;
+    z-index: -1006;
+}
+
+
+
+header{
+    overflow: hidden;
+    height: 90vh;
+    z-index: -1;
+}
+
 *{
     margin: 0;
     padding: 0;
